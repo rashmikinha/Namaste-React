@@ -1,3 +1,45 @@
-#heading{
-    color: red;
+body{
+    margin: 0;
+}
+.logo img{
+    width:70px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 0 30px;
+    align-items: center;
+    background-color: aliceblue;
+}
+.navItem ul{
+    display: flex;
+    list-style: none;
+    gap:50px;
+}
+.restroCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+.restroCardImage{
+    line-height: 0;
+}
+.bodyContainer img{
+    width: 100%;
+    height: auto;
+}
+.restroCard{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.ratingTime{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.restroCardheading{
+    margin:10px 0 5px 0;
+}
+.cusine{
+    margin-bottom:5px;
 }
